@@ -47,6 +47,7 @@ The source includes abstract classes, interfaces, and some bytecode files. Your 
 
 ## 📌 Assignment Parts
 
+---
 ✅ Part A – Initial Classes (Given in Bytecode)
 Interface: Combatable.class
 
@@ -56,6 +57,7 @@ Others: Main.class, Battle.class (handles battle simulation logic)
 
 🔸 You must not modify or recompile these files.
 
+---
 ✅ Part B – Fixed Classes You Must Implement
 1. Knight & Warrior
 CombatScore:
@@ -83,6 +85,7 @@ No HP, only has MP as a complex number C = (real, imaginary)
 
 CombatScore = factorial(real) + factorial(imaginary)
 
+---
 ✅ Part C – Customizable Classes
 You are allowed to modify the following files:
 
@@ -96,29 +99,15 @@ Utility.java: optional utility class.
 
 📸 This diagram shows the initial structure and relationships. The classes in Part B are to be implemented accordingly.
 
-🚀 How to Compile & Run
-Ensure Java is installed and run using command line:
+---
 
-bash
-Copy
-Edit
+## 🚀 How to Compile & Run
+
+Make sure you have **Java** installed (version 8 or higher). Use the following commands in the terminal or command prompt:
+
+```bash
+# Compile all Java source files in current folder
 javac *.java
+
+# Run the main class
 java Main
-You may need to compile files in source/ and util/ depending on your system.
-
-📤 Submission Guidelines
-You must submit a ZIP file via the university’s LMS.
-
-Rename the folder Initial Code to your name and student ID, for example:
-NguyenVanA_2012345
-
-Preserve the original directory structure.
-
-Do not rename or move bytecode files in class/.
-
-⚠️ Notes
-All source files must be placed in the default package.
-
-TeamMaker.java will be replaced with another version during grading – do not hardcode its behavior.
-
-Main.class and Battle.class simulate and score battles – your implementation must work with them.
