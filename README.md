@@ -39,9 +39,13 @@ The source includes abstract classes, interfaces, and some bytecode files. Your 
         ├── TeamMaker.java
         └── Utility.java
 ---
-##🔒 All classes must be placed in the default package (no package declaration).
+
+## 🔒 All classes must be placed in the default package (no package declaration).
+
 ---
-##📌 Assignment Parts
+
+## 📌 Assignment Parts
+
 ✅ Part A – Initial Classes (Given in Bytecode)
 Interface: Combatable.class
 
